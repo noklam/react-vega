@@ -64,7 +64,7 @@ class PostList extends React.Component {
 
 function App() {
   return (
-    <div className="app">
+    <div id="app" className="app">
       <PostList
         name="Erlich Bachman"
         postLink={[
